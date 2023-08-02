@@ -1,0 +1,43 @@
+.leaveapp::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: -20px;
+  width: 170px;
+  height: 90px;
+  background: url("../../assets/dots-bg-3.svg") no-repeat center center/contain;
+  margin-top: 20px;
+}
+.leaveapp {
+  background: #f8f8f8;
+  padding: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.leaveapp h2 {
+  color: #101113;
+  margin-bottom: 25px;
+  margin-top: 40px;
+  font-size: 48px;
+}
+
+.leaveapp > p {
+  text-align: center;
+  width: 50%;
+  color: #3d3d3d;
+  margin-bottom: 35px;
+}

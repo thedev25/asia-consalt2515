@@ -1,0 +1,55 @@
+@keyframes animChap {
+  from {
+    transform: translate(-150px);
+    opacity: 0, 3;
+  }
+  to {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+.animChap {
+  animation-name: animChap;
+}
+
+@keyframes animOng {
+  from {
+    transform: translate(150px);
+    opacity: 0, 3;
+  }
+  to {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+.animOng {
+  animation-name: animOng;
+}
+
+@keyframes animChap2 {
+  from {
+    transform: translate(-60px);
+    opacity: 0, 3;
+  }
+  to {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+.animChap2 {
+  animation-name: animChap2;
+}
+
+@keyframes animOng2 {
+  from {
+    transform: translate(60px);
+    opacity: 0, 3;
+  }
+  to {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+.animOng2 {
+  animation-name: animOng2;
+}

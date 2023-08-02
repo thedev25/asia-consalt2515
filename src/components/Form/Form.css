@@ -1,0 +1,142 @@
+.form {
+  padding: 50px 0;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+}
+
+.form h3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 120%;
+  color: #c51e1e;
+  margin-bottom: 15px;
+}
+
+.form > p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #101113;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.form form input {
+  background: #f6f6f6;
+  border: 0.5px solid #e6e6e6;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 10px;
+  height: 55px;
+  padding: 0 15px;
+  margin-bottom: 20px;
+}
+
+.form form input#username,
+.form form input#userphone {
+  width: 48%;
+}
+
+.form form input#usermail {
+  width: 100%;
+}
+
+.form form textarea {
+  width: 100%;
+  background: #f6f6f6;
+  border: 0.5px solid #e6e6e6;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 15px;
+  resize: none;
+  height: 150px;
+  margin-bottom: 30px;
+}
+
+.form form button {
+  margin: 0 auto;
+}
+
+.form form button p {
+  text-transform: capitalize;
+}
+
+.form::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: -200px;
+  width: 300px;
+  height: 160px;
+  background: url("../../assets/dots-bg-4.svg") no-repeat center center/contain;
+  opacity: 0.1;
+}
+
+.form::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: -200px;
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  opacity: 0.05;
+  border: 10px solid #c51e1e;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media (max-width: 567px) {
+  .form {
+    padding: 30px 15px;
+  }
+  .form::before,
+  .form::after {
+    display: none;
+  }
+  .form h3 {
+    font-size: 18px;
+    line-height: 120%;
+    margin-bottom: 15px;
+  }
+  .form p {
+    font-size: 12px;
+    line-height: 150%;
+  }
+  .form form input {
+    width: 100%;
+  }
+  .form form input#username,
+  .form form input#userphone,
+  .form form input#usermail {
+    width: 100%;
+  }
+}

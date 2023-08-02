@@ -1,0 +1,128 @@
+main {
+  margin-top: 95px;
+  background-color: white;
+  padding-left: 15px;
+}
+
+.stocks {
+  padding: 0 0 50px 0;
+}
+
+.stocks h2 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #101113;
+  margin: 20px 0 50px 0;
+}
+
+.stocks .stocks_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.stocks .stocks_row .item {
+  margin-bottom: 30px;
+}
+
+.stocks .stocks_row .item .content img {
+  width: 100%;
+  height: 270px;
+  margin-bottom: 20px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.stocks .stocks_row .item .content h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+.stocks .stocks_row .item .content p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #3d3d3d;
+}
+
+@media (max-width: 1200px) {
+  .stocks .stocks_row .item .content img {
+    height: 220px;
+  }
+}
+
+@media (max-width: 992px) {
+  .stocks {
+    margin: 0;
+    padding: 0;
+  }
+  .stocks h2 {
+    font-size: 32px;
+    line-height: 38px;
+    margin: 30px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .stocks h2 {
+    font-size: 328x;
+    line-height: 32px;
+    margin: 20px 0;
+  }
+  .stocks .stocks_row .item .content img {
+    height: 200px;
+    margin-bottom: 15px;
+  }
+  .stocks .stocks_row .item .content h3 {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 15px;
+  }
+  .stocks .stocks_row .item .content p {
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
+
+@media (max-width: 576px) {
+  .stocks h2 {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .stocks .stocks_row .item {
+    padding: 0;
+    margin-bottom: 40px;
+    background-color: #ececec;
+    padding-bottom: 20px;
+  }
+  .stocks .stocks_row .item .content img {
+    height: unset;
+    margin-bottom: 15px;
+  }
+  .stocks .stocks_row .item .content h3 {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 15px;
+    padding: 0 20px;
+  }
+  .stocks .stocks_row .item .content p {
+    font-size: 14px;
+    padding: 0 20px;
+    line-height: 150%;
+  }
+}

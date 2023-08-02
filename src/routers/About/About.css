@@ -1,0 +1,462 @@
+main {
+  margin-top: 95px;
+  background-color: #f6f6f6;
+}
+body {
+  background-color: #f6f6f6;
+}
+.about {
+  padding: 60px 30px;
+}
+
+.about .content {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.about .content h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #101113;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.about .content p {
+  padding: 0 30px 0 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #101113;
+}
+
+.high-edu {
+  position: relative;
+  padding: 60px 0;
+  background: url("../../assets/1.jpg") no-repeat;
+  background-position: 0 center;
+  background-size: 45% auto;
+}
+
+.high-edu .content {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.high-edu .content .img {
+  display: none;
+}
+
+.high-edu .content .desc {
+  padding: 0;
+}
+
+.high-edu .content .desc h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 56px;
+  color: #101113;
+  margin-bottom: 30px;
+}
+
+.high-edu .content .desc p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  color: #101113;
+}
+
+.quote {
+  margin: 40px 0;
+  padding: 60px 10%;
+  position: relative;
+}
+
+.quote p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 150%;
+  color: #101113;
+  text-align: center;
+}
+
+.quote::after {
+  content: "";
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  width: 60px;
+  height: 50px;
+  background: url("../../assets/quote.svg") no-repeat center center/contain;
+}
+
+.quote::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  width: 60px;
+  height: 50px;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  background: url("../../assets/quote.svg") no-repeat center center/contain;
+}
+
+.team {
+  margin-bottom: 30px;
+  overflow: visible;
+}
+
+.team .content {
+  margin: 0 auto 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.team .content .team h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #101113;
+  margin-bottom: 25px;
+}
+
+.team .content .team p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #101113;
+  margin-bottom: 25px;
+}
+
+.team .content .team .members {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.team .content .team .members .card {
+  background: white;
+  padding-bottom: 15px;
+  width: 300px;
+  height: 300px;
+  margin: 0 15px;
+  text-align: center;
+}
+
+.team .content .team .members .card img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.team .content .team .members .card p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 150%;
+  color: #101113;
+  margin-bottom: 5px;
+  padding: 0 20px;
+  text-align: center;
+  display: block;
+}
+
+.team .content .team .members .card span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #c51e1e;
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  display: block;
+}
+
+.team .content .owner {
+  position: relative;
+}
+
+.team .content .owner img {
+  width: 100%;
+}
+
+.team .content .owner .text {
+  position: absolute;
+  bottom: -30px;
+  right: -30px;
+  background: white;
+  padding: 20px 55px;
+}
+
+.team .content .owner .text p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  color: #101113;
+}
+
+.team .content .owner .text span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #c51e1e;
+}
+
+.director .text {
+  left: 0;
+  right: unset !important;
+}
+
+@media (max-width: 1200px) {
+  .about {
+    padding: 30px;
+  }
+  .high-edu {
+    padding: 30px;
+  }
+  .high-edu .content .desc h2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .quote {
+    margin: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .about {
+    padding: 0;
+    margin-bottom: 15px;
+  }
+  .about .content p {
+    padding: 0 15px;
+  }
+  .about .content h1 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+  }
+  .high-edu {
+    background: none;
+    padding: 0;
+    margin-bottom: 15px;
+  }
+  .high-edu .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .high-edu .content .img {
+    display: block;
+    height: 280px;
+  }
+  .high-edu .content .img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  .high-edu .content .desc {
+    padding: 15px;
+  }
+  .high-edu .content .desc h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .high-edu .content .desc p {
+    font-size: 14px;
+    line-height: 150%;
+  }
+  .quote {
+    padding: 40px 15%;
+    margin-bottom: 15px;
+  }
+  .quote p {
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .team .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .team .content .team h3 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  .team .content .team .members {
+    margin: 0 auto;
+    padding: 0;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+  .team .content .team .members .card {
+    margin: 0;
+    width: 48%;
+    height: unset;
+  }
+}
+
+@media (max-width: 576px) {
+  .about {
+    margin: 0;
+  }
+  .about .content {
+    padding: 0;
+  }
+  .about .content h1 {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 20px 0;
+    display: block;
+    text-align: center;
+  }
+  .about .content p {
+    margin-bottom: 20px;
+  }
+  .high-edu .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0;
+  }
+  .high-edu .content .img img {
+    height: 185px;
+    margin-bottom: 20px;
+  }
+  .high-edu .content .desc {
+    padding: 0 15px;
+  }
+  .high-edu .content .desc h2 {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 20px;
+  }
+  .quote::after {
+    -webkit-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    transform: scale(0.6);
+    right: 0;
+  }
+  .quote::before {
+    -webkit-transform: rotate(185deg) scale(0.6);
+    -ms-transform: rotate(185deg) scale(0.6);
+    transform: rotate(185deg) scale(0.6);
+    left: 0;
+  }
+  .quote p {
+    font-size: 14px;
+    line-height: 150%;
+  }
+  .team .content {
+    padding: 0;
+  }
+  .team .content .team {
+    padding: 0;
+    margin: 0;
+  }
+  .team .content .team h3 {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 20px;
+  }
+  .team .content .team p {
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 20px;
+  }
+  .team .content .team .members {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .team .content .team .members .card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .team .content .team .members .card img {
+    height: 300px;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  .team .content .team .members .card span {
+    display: block;
+    text-align: center;
+  }
+  .team .content .owner {
+    margin: 0;
+    padding: 0;
+  }
+  .team .content .owner img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .team .content .owner .text {
+    position: unset;
+    padding: 15px;
+  }
+  .team .content .owner .text p {
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 10px;
+    text-align: center;
+    display: block;
+  }
+  .team .content .owner .text span {
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    display: block;
+  }
+}

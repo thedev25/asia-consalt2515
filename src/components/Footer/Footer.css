@@ -1,0 +1,405 @@
+.contact {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.contact .maps {
+  width: 100%;
+  padding: 50px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: #fff;
+}
+
+.contact .maps .map img {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact .maps .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 40px 15px;
+}
+
+.contact .maps .content span {
+  font-weight: 900;
+  font-size: 116.236px;
+  line-height: 120%;
+  color: #c51e1e;
+  margin-bottom: 5px;
+}
+
+.contact .maps .content > p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #101113;
+}
+
+.contact .maps .content > p.title {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.contact .contacts {
+  background: #f7f7f7;
+  padding: 50px 15px;
+}
+
+.contact .contacts .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.contact .contacts .content > div h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 120%;
+  margin-bottom: 15px;
+  color: #c51e1e;
+  text-align: center;
+}
+
+.contact .contacts .content .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.contact .contacts .content .social h3 {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.contact .contacts .content .social .socials a {
+  margin: 0 10px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contact .contacts .content .social .socials a:hover {
+  opacity: 0.7;
+}
+
+.contact .contacts .content .tels .branch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.contact .contacts .content .tels .branch p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #101113;
+  width: 100px;
+}
+
+.contact .contacts .content .tels .branch .tel-numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.contact .contacts .content .tels .branch .tel-numbers a {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 150%;
+  color: #101113;
+  margin-bottom: 5px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contact .contacts .content .tels .branch .tel-numbers a:hover {
+  opacity: 0.7;
+}
+a i {
+  font-size: 30px;
+  color: #1e3050;
+  margin-left: 10px;
+}
+.btn-default {
+  position: relative;
+  width: 256px;
+  height: 54px;
+  background-color: #c51e1e;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: center;
+  /* padding: 15px 45px 15px 40px; */
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn-default:hover {
+  -webkit-box-shadow: -2px 13px 19px -16px rgba(0, 0, 0, 0.75);
+  box-shadow: -2px 13px 19px -16px rgba(0, 0, 0, 0.75);
+  background: rgba(197, 30, 30, 0.9);
+  /* padding-left: 30px; */
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.btn-default img {
+  transition: 0.3s;
+  margin-right: 5px;
+}
+
+.btn-default:hover img {
+  margin-right: 15px;
+  transition: 0.3s;
+}
+
+.btn-default p {
+  font-style: normal;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 150%;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 12px;
+  transition: 0.3s;
+}
+
+@media (max-width: 1400px) {
+  .main_nav .tel_lang {
+    padding-right: 5px;
+  }
+  .main_nav .tel_lang .tel {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1200px) {
+  footer .content .links ul li {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  footer .content {
+    height: unset;
+    margin-bottom: 10px;
+  }
+  footer .content .links ul {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  footer .content .links ul li {
+    width: unset;
+    margin: 10px 15px;
+  }
+  .contact .maps {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  .btn-default p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .btn-default-red {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  footer .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  footer .content .logo,
+  footer .content .links {
+    margin-bottom: 15px;
+  }
+
+  .contact .maps {
+    padding: 0;
+    padding-bottom: 30px;
+  }
+  .contact .contacts {
+    padding-bottom: 0;
+  }
+  .contact .contacts h2 {
+    font-size: 28px;
+  }
+  .contact .contacts .content {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .contact .contacts .content > div {
+    margin-bottom: 30px;
+  }
+  .contact .contacts .content .social {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  .contact .contacts .content .social .socials {
+    margin-bottom: 0;
+  }
+  .contact .contacts .content .tels {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .contact .contacts .content .tels h3 {
+    width: 100%;
+  }
+  .contact .contacts .content .tels .branch {
+    width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  footer .content .logo {
+    display: none;
+  }
+  footer .content .links ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  footer .content .links ul li {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    margin: 7.5px 0;
+  }
+  footer .content .tel a {
+    font-weight: bold;
+  }
+  .contact .maps .content {
+    padding: 30px 15px;
+  }
+  .contact .maps .content span {
+    font-size: 54px;
+    line-height: 1.2;
+  }
+  .contact .maps .content > p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .contact .maps .content > p.title {
+    font-size: 16px;
+  }
+  .contact .contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .contact .contacts .content > div {
+    text-align: center;
+  }
+  .contact .contacts .content > div h3 {
+    text-align: center;
+  }
+  .contact .contacts .content .tels .branch {
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .contact .contacts h2 {
+    font-size: 20px;
+    line-height: 120%;
+  }
+
+  .btn-default p {
+    font-size: 12px;
+    line-height: 150%;
+  }
+}
