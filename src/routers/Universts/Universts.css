@@ -10,6 +10,8 @@ main {
   margin: 0 auto;
   text-align: center;
   color: rgb(189, 2, 2);
+  font-weight: bold;
+  line-height: 58px;
 }
 
 .universities {

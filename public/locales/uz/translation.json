@@ -1,0 +1,22 @@
+{
+  "header": {
+    "h1": "Asia Consult bilan universitetingizni tanlang.",
+    "p": "Abituriyentlarga kasb tanlashda o‘z yo‘nalishini topib, MDHdagi nufuzli universitetlarga o‘qishga kirishda yordam beramiz",
+    "ul": {
+      "l1": "Bakalavriyat",
+      "l2": "Magistratura",
+      "l3": "Aspirantura",
+      "l4": "Doktorantura"
+    },
+    "phone": {
+      "phonetext": "Murojaatlar va takliflar uchun"
+    },
+    "mainSupport": {
+      "h2": "Biz sizga qanday yordam bera olamiz?",
+      "h3one": "Konsultatsiya",
+      "h3two": "Qabul strategiyasi",
+      "h3thee": "Kirish jarayonida yordam",
+      "h3four": "O‘quv jarayonida qo‘llab-quvvatlash"
+    }
+  }
+}

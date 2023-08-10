@@ -8,6 +8,7 @@ import About from "./routers/About/About";
 import Stocks from "./routers/Stocks/Stocks";
 import Contacts from "./routers/Contacts/Contacts";
 import Main from "./routers/Main/Main";
+import Form from "./components/Form/Form";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="about" element={<About />}></Route>
           <Route path="stocks" element={<Stocks />}></Route>
           <Route path="contacts" element={<Contacts />}></Route>
+          <Route path="form" element={<Form />} />
         </Route>
       </Routes>
     </BrowserRouter>

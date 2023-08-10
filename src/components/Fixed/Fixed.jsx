@@ -1,6 +1,6 @@
 import React from "react";
 import "./Fixed.css";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import phone from "../../assets/phone-alt-solid.png";
 
 function Fixed() {
@@ -29,7 +29,7 @@ function Fixed() {
       </div>
 
       <div id="fixed_leaveapp">
-        <NavLink to="/Form">Мурожаат юбориш</NavLink>
+        <Link to="/form">Мурожаат юбориш</Link>
       </div>
     </div>
   );

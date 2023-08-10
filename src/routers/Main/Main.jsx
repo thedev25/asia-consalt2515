@@ -1,5 +1,4 @@
 import bg from "../../assets/asia-main-small.jpg";
-
 import arrow from "../../assets/arrow-big.svg";
 import img1 from "../../assets/img1.jpg";
 import img2 from "../../assets/img2.jpg";
@@ -23,8 +22,9 @@ import Footer from "../../components/Footer/Footer";
 import Carousel from "../../components/Carousel/Carousel";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
-
+import { useTranslation } from "react-i18next";
 function Main() {
+  const { t } = useTranslation();
   return (
     <div className="all">
       <div className="intro">
@@ -34,24 +34,21 @@ function Main() {
           </div>
 
           <div className="desc col-xl-5 col-lg-5 col-md-6 col-sm-10">
-            <h1>Asia Consult билан университетингизни танланг.</h1>
+            <h1>{t("header.h1")}</h1>
 
-            <p>
-              Абитуриентларга касб танлашда ўз йўналишини топиб, МДҲдаги нуфузли
-              университетларга ўқишга киришда ёрдам берамиз
-            </p>
+            <p>{t("header.p")}</p>
 
             <ul>
-              <li>Бакалаврият</li>
+              <li>{t("header.ul.l1")}</li>
 
-              <li>Магистратура</li>
+              <li>{t("header.ul.l2")}</li>
 
-              <li>Аспирантура</li>
+              <li>{t("header.ul.l3")}</li>
 
-              <li>Докторантура</li>
+              <li>{t("header.ul.l4")}</li>
             </ul>
             <div className="phone-complaint">
-              <p>Мурожатлар ва таклифлар учун</p>
+              <p>{t("header.phone.phonetext")}</p>
               <a href="tel:+998908070094">+998(90)807-00-94</a>
             </div>
           </div>
@@ -64,9 +61,7 @@ function Main() {
 
       <div className="mainSupport">
         <section class="support container-fluid">
-          <h2>
-            <span>Биз </span>сизга қандай ёрдам бера оламиз?
-          </h2>
+          <h2>{t("header.mainSupport.h2")}</h2>
           <div className="items col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
             <div className="item">
               <Reveal effect="animChap" duration="2000">

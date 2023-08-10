@@ -1,12 +1,33 @@
 import logo from "../../assets/logo.svg";
-
+import { useEffect } from "react";
 import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import "./Header.scss";
 import Fixed from "../Fixed/Fixed";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 function Header() {
+  const { t, i18n } = useTranslation();
+
+  const onChangeLang = (e) => {
+    i18n.changeLanguage(e.target.value);
+  };
+
+  useEffect(() => {
+    for (
+      let index = 0;
+      index < document.getElementsByClassName("lang").length;
+      index++
+    ) {
+      const element = document.getElementsByClassName("lang")[index];
+      if (element.value === i18n.language) {
+        element.setAttribute("selected", "true");
+      }
+    }
+  });
+
+  // ******************************----------------**********************************
+
   const location = useLocation();
   console.log("location: ", location);
 
@@ -73,10 +94,17 @@ function Header() {
             </NavLink>
           </div>
           <div className="navLang ">
-            <select name="lan" id="lan">
-              <option value="uz">ЎЗ</option>
-              <option value="ru">RU</option>
-              <option value="en">EN</option>
+            <select
+              class="form-select d-flex"
+              style={{ width: "70px" }}
+              onChange={onChangeLang}
+            >
+              <option value="uz" className="lang">
+                Uzb
+              </option>
+              <option value="en" className="lang">
+                Eng
+              </option>
             </select>
             <div className="tel">
               <a href="tel:+998555031010">+998 55 503 10 10</a>

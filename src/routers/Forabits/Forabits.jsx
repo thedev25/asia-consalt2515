@@ -7,6 +7,7 @@ import "./Forabits.css";
 import MainForm from "../../components/MainForm/MainForm";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+import { Link } from "react-router-dom";
 
 function Forabits() {
   return (
@@ -46,7 +47,7 @@ function Forabits() {
                 </li>
               </ul>
 
-              <a href="form.html" class="btn-default">
+              <Link to="/form" class="btn-default">
                 <LazyLoadImage
                   effect="blur"
                   delayTime={5000}
@@ -55,7 +56,7 @@ function Forabits() {
                 />
 
                 <p>Консультация</p>
-              </a>
+              </Link>
             </div>
           </div>
         </section>
@@ -79,7 +80,7 @@ function Forabits() {
                 </li>
               </ul>
 
-              <a href="form.html" className="btn-default">
+              <Link to="/form" className="btn-default">
                 <LazyLoadImage
                   effect="blur"
                   delayTime={5000}
@@ -88,7 +89,7 @@ function Forabits() {
                 />
 
                 <p>Консультация</p>
-              </a>
+              </Link>
             </div>
 
             <div className="img col-xl-6 col-lg-6">
@@ -127,7 +128,7 @@ function Forabits() {
                 <li>Турар жой билан боғлиқ бўлган харажатларни ҳисоблаш</li>
               </ul>
 
-              <a href="form.html" className="btn-default">
+              <Link to="/form" className="btn-default">
                 <LazyLoadImage
                   effect="blur"
                   delayTime={5000}
@@ -136,7 +137,7 @@ function Forabits() {
                 />
 
                 <p>Консультация</p>
-              </a>
+              </Link>
             </div>
           </div>
         </section>

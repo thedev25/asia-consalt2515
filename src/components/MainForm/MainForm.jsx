@@ -1,6 +1,7 @@
 import React from "react";
 import arrow from "../../assets/arrow-btn-w.svg";
 import "./MainForm.css";
+import { Link } from "react-router-dom";
 
 function MainForm() {
   return (
@@ -14,11 +15,11 @@ function MainForm() {
           беради.
         </p>
 
-        <a href="form.html" className="btn-default">
+        <Link to="/form" className="btn-default">
           <img src={arrow} alt="arrow" />
 
           <p>Мурожаат юбориш</p>
-        </a>
+        </Link>
       </section>
     </div>
   );

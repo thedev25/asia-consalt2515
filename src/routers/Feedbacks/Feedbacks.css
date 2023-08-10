@@ -1,6 +1,6 @@
 main {
   margin-top: 95px;
-  background-color: #f6f6f6;
+  background: #f6f6f6 !important;
 }
 
 .feedbacks h2 {
@@ -11,6 +11,7 @@ main {
   text-align: center;
   color: #101113;
   margin: 50px 0;
+  padding-top: 50px;
 }
 
 .feedbacks .feedbacks_row {

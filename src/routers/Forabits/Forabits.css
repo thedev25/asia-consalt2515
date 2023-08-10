@@ -65,7 +65,11 @@ section.support .desc h2 {
   font-size: 36px;
   line-height: 120%;
   color: #101113;
+
   margin-bottom: 30px;
+}
+section h2 {
+  margin-top: 0;
 }
 
 section.support .desc ul li {

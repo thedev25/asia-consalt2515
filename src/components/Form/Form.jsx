@@ -3,7 +3,7 @@ import "./Form.css";
 import img from "../../assets/arrow-btn-w.svg";
 function Form() {
   return (
-    <div>
+    <div className="forms">
       <div class="form col-xl-6 col-lg-6 col-md-10 col-sm-10 col-12">
         <h3>Мурожаат қолдиринг</h3>
 
@@ -14,7 +14,7 @@ function Form() {
         </p>
 
         <form>
-          <input name="web_page" value="Asia Consult" style="display: none" />
+          <input name="web_page" value="Asia Consult" />
 
           <input
             id="username"
@@ -44,7 +44,7 @@ function Form() {
             placeholder="Қўшимча ҳабарингиз..."
           ></textarea>
 
-          <button type="submit" class="btn-default">
+          <button type="submit" className="btn-default">
             <img src={img} alt="arrow" />
 
             <p>Юбориш</p>

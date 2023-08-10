@@ -393,11 +393,6 @@
   z-index: -1;
   background: url("../../assets/dots-bg-4.svg") no-repeat center center/contain;
 }
-/* @media (max-width: 992px) {
-  .support .items .item:nth-child(4) .img .holder::after {
-    display: none;
-  }
-} */
 
 .support .items .item:nth-child(4) .img .holder::before {
   content: "";
@@ -415,16 +410,15 @@
 .support .items::after {
   content: "";
   position: absolute;
-  /* top: 750px; */
+  top: 180px;
   bottom: 30px;
   left: 50%;
-  height: 1940px;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   width: 1px;
   background: rgba(159, 39, 56, 0.37);
-  z-index: 1;
+  z-index: 0;
 }
 
 /* statistics */ /* statistics */ /* statistics */

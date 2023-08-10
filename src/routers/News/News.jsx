@@ -7,6 +7,7 @@ import img4 from "../../assets/asianews_4.jpg";
 import ocloc from "../../assets/clock-grey.svg";
 import MainForm from "../../components/MainForm/MainForm";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { Link } from "react-router-dom";
 
 function News() {
   return (
@@ -17,7 +18,7 @@ function News() {
 
           <div class="news_row">
             <div class="item col-xl-4 col-lg-4 col-md-6 col-sm-8 col-12">
-              <a href="./form.html">
+              <Link to="/form">
                 <div class="img">
                   <LazyLoadImage src={img1} alt="news-post-first" />
 
@@ -37,10 +38,10 @@ function News() {
                 </p>
 
                 <button class="link">Батафсил</button>
-              </a>
+              </Link>
             </div>
             <div class="item col-xl-4 col-lg-4 col-md-6 col-sm-8 col-12">
-              <a href="./form.html">
+              <Link to="/form">
                 <div class="img">
                   <LazyLoadImage src={img2} alt="news-post-first" />
 
@@ -59,10 +60,10 @@ function News() {
                 </p>
 
                 <button class="link">Батафсил</button>
-              </a>
+              </Link>
             </div>
             <div class="item col-xl-4 col-lg-4 col-md-6 col-sm-8 col-12">
-              <a href="./form.html">
+              <Link to="/form">
                 <div class="img">
                   <LazyLoadImage src={img3} alt="news-post-first" />
 
@@ -82,10 +83,10 @@ function News() {
                 </p>
 
                 <button className="link">Батафсил</button>
-              </a>
+              </Link>
             </div>
             <div className="item col-xl-4 col-lg-4 col-md-6 col-sm-8 col-12">
-              <a href="./form.html">
+              <Link to="/form">
                 <div className="img">
                   <LazyLoadImage src={img4} alt="news-post-first" />
 
@@ -108,7 +109,7 @@ function News() {
                 </p>
 
                 <button class="link">Батафсил</button>
-              </a>
+              </Link>
             </div>
           </div>
         </section>
